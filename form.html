@@ -7,5 +7,17 @@
   </head>
 
   <body>
+    <form>
+      <!-- `for` and `id` attributes are more suitable for relating labels and
+      inputs, as they work better with screen readers. -->
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="firstName">
+
+      <label>Last Name:
+        <input type="text" name="lastName">
+      </label>
+
+      <input type="submit" value="Submit">
+    </form>
   </body>
 </html>
