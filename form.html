@@ -26,6 +26,29 @@
       <label for="yourMessage">Your Message:</label>
       <textarea id="yourMessage" name="yourMessage"></textarea>
 
+      <label for="favoriteColor">What is your favorite color?</label>
+      <select name="favoriteColor" id="favoriteColor">
+        <option value="colorRed">Red</option>
+        <option value="colorOrange">Orange</option>
+        <option value="colorYellow">Yellow</option>
+      </select>
+
+      <fieldset>
+        <legend>What is your favorite meal?</legend>
+
+        <input type="radio" name="favoriteMeal" id="breakfast" value="meal1"><label for="breakfast">Breakfast</label>
+        <input type="radio" name="favoriteMeal" id="lunch" value="meal2"><label for="lunch">Lunch</label>
+        <input type="radio" name="favoriteMeal" id="dinner" value="meal3"><label for="dinner">Dinner</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Which meals do you enjoy? (check all that apply)</legend>
+
+        <input type="checkbox" name="enjoyMeal" id="enjoy_breakfast" value="meal1"><label for="enjoy_breakfast">Breakfast</label>
+        <input type="checkbox" name="enjoyMeal" id="enjoy_lunch" value="meal2"><label for="enjoy_lunch">Lunch</label>
+        <input type="checkbox" name="enjoyMeal" id="enjoy_dinner" value="meal3"><label for="enjoy_dinner">Dinner</label>
+      </fieldset>
+
       <input type="submit" value="Submit">
     </form>
   </body>
