@@ -1,8 +1,24 @@
+/* Type selector - HTML TAG */
 h1 {
   color: orange;
   text-align: center;
 }
 
-p {
+/* Descendent selector - Nested HTML TAGs */
+header p {
   color: green;
+}
+
+header p span {
+  color: blue;
+}
+
+/* Class selector - `class` HTML Attribute */
+.highlight {
+  background-color: yellow;
+}
+
+/* Selector combinations */
+footer .highlight {
+  background-color: LightGray;
 }
