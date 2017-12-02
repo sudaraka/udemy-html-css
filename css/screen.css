@@ -333,6 +333,51 @@ input[type="submit"]:hover {
   background-image: linear-gradient(to bottom, #e5e9dc, #fff);
 }
 
+/* UI Menu */
+
+.ui-menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.ui-menu li {
+  float: left;
+  list-style: none;
+  margin-right: 20px;
+}
+
+.ui-menu a {
+  display: block;
+  width: 50px;
+  height: 50px;
+
+  background-image: url(../images/sprites.png);
+
+  text-indent: -9999px;
+}
+
+.ui-profile a {
+  background-position: 0 -50px;
+}
+
+.ui-settings a {
+  background-position: 0 -100px;
+}
+
+.ui-home a:hover {
+  background-position: -50px 0;
+}
+
+.ui-profile a:hover {
+  background-position: -50px -50px;
+}
+
+.ui-settings a:hover {
+  background-position: -50px -100px;
+}
+
+/* End UI Menu */
+
 footer {
   text-align: center;
   font-size: 85%;
