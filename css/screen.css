@@ -21,8 +21,6 @@ body {
 
 header {
   padding-top: 20px;
-  padding-bottom: 20px;
-
   color: #617140;
 }
 
@@ -36,6 +34,38 @@ header h1 {
 header p {
   margin: 0;
 }
+
+/* Site Navigation */
+
+.site-nav  {
+  margin-top: 20px;
+}
+
+.site-nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.site-nav li {
+  list-style: none;
+  float: left;
+  margin-right: 5px;
+}
+
+.site-nav a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #617140;
+  border: 3px solid #e5e9dc;
+  border-bottom: none;
+}
+
+.site-nav a:hover {
+  background-color: #e5e9dc;
+}
+
+/* End Site Navigation */
 
 .content-area {
   border-top: 3px solid #e5e9dc;
