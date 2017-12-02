@@ -3,8 +3,13 @@ html {
 }
 
 body {
-  font-family: Tahoma, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 87%;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
 }
 
 img {
@@ -107,6 +112,19 @@ header p {
   box-sizing: border-box;
 
   padding-right: 40px;
+}
+
+.main-area h2 {
+  font-size: 200%;
+  font-weight: normal;
+  font-style: italic;
+  letter-spacing: 4px;
+  word-spacing: 10px;
+  text-transform: lowercase;
+}
+
+.main-area p {
+  text-align: justify;
 }
 
 /* Table Styles */
