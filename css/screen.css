@@ -89,9 +89,19 @@ img {
 
 
 .container {
-  max-width: 940px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 0 40px;
+}
+
+@media screen and (min-width: 1300px) {
+  body {
+    font-size: 18px;
+  }
+
+  .container {
+    max-width: 1200px;
+  }
 }
 
 header {
@@ -133,13 +143,32 @@ header p {
   padding: 10px 20px;
   text-decoration: none;
   color: #fff;
-  border: 3px solid #e5e9dc;
-  border-bottom: none;
+  background-color: #536036;
 }
 
 .site-nav a:hover {
-  background-color: #e5e9dc;
-  color: #617140;
+  background-color: #4e5a33;
+}
+
+@media screen and (max-width: 700px) {
+  .site-nav li {
+    width: 33.32%;
+    margin-right: 0;
+  }
+
+  .site-nav a {
+    padding: 15px 0;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .site-nav li {
+    width: 50%;
+  }
 }
 
 /* End Site Navigation */
@@ -326,6 +355,28 @@ input[type="submit"]:hover {
 
   background-color: #e5e9dc;
   background-image: linear-gradient(to bottom, #e5e9dc, #fff);
+}
+
+@media screen and (max-width: 700px) {
+  .main-area,
+  .sidebar {
+    width: auto;
+    float: none;
+  }
+
+  .main-area {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .hide-small {
+    display: none;
+  }
 }
 
 /* UI Menu */
