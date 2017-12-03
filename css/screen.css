@@ -67,6 +67,41 @@ img {
   height: auto;
 }
 
+/* Transform Examples */
+
+.example {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 10px 15px;
+}
+
+.example h3 {
+  margin: 0 0 8px 0;
+  font-weight: normal;
+  font-size: 100%;
+}
+
+.example-a {
+  color: #000;
+  background-color: #ddd;
+  /* transform: rotate(-15deg); */
+  /* transform: scale(.5); */
+  /* transform: skewY(-25deg) skewX(15deg); */
+  /* transform: rotate(20deg) scale(1.5); */
+  /* transform: scale(1.5); */
+  /* transform-origin: 100% 0; */
+  /* transform: translateY(50px) translateX(100px); */
+  transform: translate(100px, 50px);
+}
+
+.example-b {
+  color: #fff;
+  background-color: #444;
+  transform: rotate(-15deg) scale(1.2);
+}
+
+/* Transform Examples */
+
 /* Birds Background Demo */
 
 .birds {
