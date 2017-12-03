@@ -179,10 +179,13 @@ header p {
   text-decoration: none;
   color: #fff;
   background-color: #536036;
+  transition-property: all;
+  transition-duration: 2s;
 }
 
 .site-nav a:hover {
-  background-color: #4e5a33;
+  background-color: #e5e9dc;
+  color: #536036;
 }
 
 @media screen and (max-width: 700px) {
@@ -212,10 +215,14 @@ header p {
 
 .image-banner {
   position: relative;
+  overflow: hidden;
 }
 
 .image-banner img {
   display: block;
+  width: 100%;
+  height: auto;
+  transition: all 1s ease-in;
 }
 
 .banner-description {
@@ -227,6 +234,20 @@ header p {
 
   color: #fff;
   background-color: rgba(0, 0, 0, .65);
+
+  opacity: 0;
+  transform: translateY(100%);
+  transition-property: all;
+  transition-duration: .2s;
+}
+
+.image-banner:hover .banner-description {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.image-banner:hover img {
+  transform: scale(1.5);
 }
 
 /* End Banner Overlay */
@@ -276,6 +297,12 @@ header p {
   margin-bottom: 40px;
   text-align: center;
   border-radius: 50%;
+  transition: all 1s ease-out;
+  /* transition-timing-function: ease-in-out; */
+}
+
+.box-b:hover {
+  transform: rotate(360deg);
 }
 
 .box-c {
