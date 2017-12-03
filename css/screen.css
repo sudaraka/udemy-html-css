@@ -76,7 +76,7 @@ img {
   text-align: center;
 }
 
-.main-area .birds p {
+.birds p {
   margin: 0;
   background-color: rgba(0, 0, 0, .7);
   color: #fff;
@@ -224,6 +224,19 @@ header p {
   text-align: justify;
 }
 
+.box-a {
+  background-color: #e7eff5;
+  padding: 20px 20px 0;
+  border: 2px solid #d3dee7;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .box-a {
+    margin-bottom: 15px;
+  }
+}
+
 /* Table Styles */
 
 table {
@@ -345,28 +358,13 @@ input[type="submit"]:hover {
 /* End Form Styles */
 
 .sidebar {
-  width: 34%;
-  float: left;
-  padding: 20px 40px;
-
   font-size: 85%;
-
-  box-sizing: border-box;
-
-  background-color: #e5e9dc;
-  background-image: linear-gradient(to bottom, #e5e9dc, #fff);
+  color: #999;
 }
 
-@media screen and (max-width: 700px) {
-  .main-area,
-  .sidebar {
-    width: auto;
-    float: none;
-  }
-
-  .main-area {
-    padding-right: 0;
-  }
+.sidebar h3 {
+  font-size: 138.5%;
+  margin-bottom: 7px;
 }
 
 @media screen and (max-width: 480px) {
