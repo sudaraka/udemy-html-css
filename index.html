@@ -30,139 +30,164 @@
 
     <div class="content-area group">
       <div class="container">
-        <h2>Main Column Heading</h2>
+        <div class="row">
+          <div class="col col-md-8">
+            <h2>Main Column Heading</h2>
 
-        <nav class="ui-menu">
-          <ul class="group">
-            <li class="ui-home"><a href="#">Home</a></li>
-            <li class="ui-profile"><a href="#">Profile</a></li>
-            <li class="ui-settings"><a href="#">Settings</a></li>
-          </ul>
-        </nav>
+            <nav class="ui-menu">
+              <ul class="group">
+                <li class="ui-home"><a href="#">Home</a></li>
+                <li class="ui-profile"><a href="#">Profile</a></li>
+                <li class="ui-settings"><a href="#">Settings</a></li>
+              </ul>
+            </nav>
 
-        <br>
+            <br>
 
-        <div class="box-a">
-          <p>Key feature 1</p>
-        </div>
+            <div class="row">
+              <div class="col col-sm-6 col-lg-3">
+                <div class="box-a">
+                  <p>Key feature 1</p>
+                </div>
+              </div>
 
-        <div class="box-a">
-          <p>Key feature 2</p>
-        </div>
+              <div class="col col-sm-6 col-lg-3">
+                <div class="box-a">
+                  <p>Key feature 2</p>
+                </div>
+              </div>
 
-        <div class="box-a">
-          <p>Key feature 3</p>
-        </div>
+              <div class="col col-sm-6 col-lg-3">
+                <div class="box-a">
+                  <p>Key feature 3</p>
+                </div>
+              </div>
 
-        <div class="box-a">
-          <p>Key feature 4</p>
-        </div>
+              <div class="col col-sm-6 col-lg-3">
+                <div class="box-a">
+                  <p>Key feature 4</p>
+                </div>
+              </div>
+            </div>
 
-        <img src="images/bird.jpg" alt="">
-        <img src="images/squirel.jpg" alt="">
+            <div class="row">
+              <div class="col col-xs-6">
+                <img src="images/bird.jpg" alt="">
+              </div>
 
-        <p>This is the main area (or column). Donec condimentum faucibus augue id feugiat. Nullam sodales, sem maximus hendrerit tristique, diam sapien lacinia leo, a ornare magna libero in sapien.</p>
+              <div class="col col-xs-6">
+                <img src="images/squirel.jpg" alt="">
+              </div>
+            </div>
 
-        <div class="birds">
-          <p>Birds are grate!</p>
-        </div>
+            <p>This is the main area (or column). Donec condimentum faucibus augue id feugiat. Nullam sodales, sem maximus hendrerit tristique, diam sapien lacinia leo, a ornare magna libero in sapien.</p>
 
-        <p>Donec vel ligula lacus. Etiam at laoreet odio. Quisque risus risus, ultrices quis lacus et, consectetur vulputate nibh.</p>
+            <div class="birds">
+              <p>Birds are grate!</p>
+            </div>
 
-        <form>
+            <p>Donec vel ligula lacus. Etiam at laoreet odio. Quisque risus risus, ultrices quis lacus et, consectetur vulputate nibh.</p>
 
-          <label for="email" class="hidden-label">Email</label>
-          <input type="email" name="email" id="email" placeholder="Email">
+            <form>
 
-          <label for="password" class="hidden-label">Password</label>
-          <input type="password" name="password" id="password" placeholder="Password">
+              <label for="email" class="hidden-label">Email</label>
+              <input type="email" name="email" id="email" placeholder="Email">
 
-          <select>
-            <option>Initially view...</option>
-            <option>My Profile</option>
-            <option>Inbox</option>
-            <option>Account Settings</option>
-          </select>
+              <label for="password" class="hidden-label">Password</label>
+              <input type="password" name="password" id="password" placeholder="Password">
 
-          <input type="submit" value="Sign In">
+              <select>
+                <option>Initially view...</option>
+                <option>My Profile</option>
+                <option>Inbox</option>
+                <option>Account Settings</option>
+              </select>
 
-          <label>
-            <input type="checkbox" name="remember" checked="checked" value="yes">
-            <span class="checkbox-text">Stay signed in</span>
-          </label>
+              <input type="submit" value="Sign In">
 
-        </form>
+              <label>
+                <input type="checkbox" name="remember" checked="checked" value="yes">
+                <span class="checkbox-text">Stay signed in</span>
+              </label>
 
-        <p>Nullam tempus nulla malesuada velit lobortis, sit amet rhoncus tellus condimentum. Suspendisse fermentum massa enim, sit amet blandit lacus imperdiet eu.</p>
+            </form>
 
-        <table class="grocery-list hide-small">
-          <thead>
-            <tr>
-              <th class="col-item-name">Item Name</th>
-              <th class="col-quantity">Quantity</th>
-              <th class="col-price">Price</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Oranges</td>
-              <td>5</td>
-              <td>$3.00</td>
-            </tr>
+            <p>Nullam tempus nulla malesuada velit lobortis, sit amet rhoncus tellus condimentum. Suspendisse fermentum massa enim, sit amet blandit lacus imperdiet eu.</p>
 
-            <tr>
-              <td>Celery</td>
-              <td>2</td>
-              <td>$2.50</td>
-            </tr>
+            <table class="grocery-list hide-small">
+              <thead>
+                <tr>
+                  <th class="col-item-name">Item Name</th>
+                  <th class="col-quantity">Quantity</th>
+                  <th class="col-price">Price</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Oranges</td>
+                  <td>5</td>
+                  <td>$3.00</td>
+                </tr>
 
-            <tr>
-              <td>Garlic</td>
-              <td>2</td>
-              <td>$1.90</td>
-            </tr>
+                <tr>
+                  <td>Celery</td>
+                  <td>2</td>
+                  <td>$2.50</td>
+                </tr>
 
-            <tr>
-              <td>Bananas</td>
-              <td>6</td>
-              <td>$2.99</td>
-            </tr>
+                <tr>
+                  <td>Garlic</td>
+                  <td>2</td>
+                  <td>$1.90</td>
+                </tr>
 
-            <tr>
-              <td>Onions</td>
-              <td>4</td>
-              <td>$3.00</td>
-            </tr>
+                <tr>
+                  <td>Bananas</td>
+                  <td>6</td>
+                  <td>$2.99</td>
+                </tr>
 
-            <tr>
-              <td>Very long awkwardly named yet still delicious item here</td>
-              <td>4</td>
-              <td>$3.00</td>
-            </tr>
+                <tr>
+                  <td>Onions</td>
+                  <td>4</td>
+                  <td>$3.00</td>
+                </tr>
 
-            <tr>
-              <td>Carrots</td>
-              <td>12</td>
-              <td>$2.99</td>
-            </tr>
-          </tbody>
-        </table>
+                <tr>
+                  <td>Very long awkwardly named yet still delicious item here</td>
+                  <td>4</td>
+                  <td>$3.00</td>
+                </tr>
 
-        <p>Etiam nec leo fermentum, sollicitudin massa id, sagittis diam. Curabitur maximus felis tortor, ut porttitor nisl feugiat ac. Aliquam ut interdum purus. Cras eu magna sem. Morbi pharetra pulvinar mi vitae malesuada. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi congue laoreet dui a euismod.</p>
+                <tr>
+                  <td>Carrots</td>
+                  <td>12</td>
+                  <td>$2.99</td>
+                </tr>
+              </tbody>
+            </table>
 
-        <div class="image-banner">
-          <img src="images/squirel.jpg" alt="">
-          <div class="banner-description">
-            <p>This is a brief description of the image. This is a photograph of a squirrel on the train tracks that was taken in Oregon. This squirrel was incredibly breave and enjoyed playing on the tracks.</p>
+            <p>Etiam nec leo fermentum, sollicitudin massa id, sagittis diam. Curabitur maximus felis tortor, ut porttitor nisl feugiat ac. Aliquam ut interdum purus. Cras eu magna sem. Morbi pharetra pulvinar mi vitae malesuada. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi congue laoreet dui a euismod.</p>
+
+            <div class="image-banner">
+              <img src="images/squirel.jpg" alt="">
+              <div class="banner-description">
+                <p>This is a brief description of the image. This is a photograph of a squirrel on the train tracks that was taken in Oregon. This squirrel was incredibly breave and enjoyed playing on the tracks.</p>
+              </div>
+            </div>
+
+            <p>Phasellus a felis pulvinar, auctor ex sit amet, dignissim tellus. Praesent vel urna bibendum, rutrum libero non, semper enim. Sed aliquam, ligula non dignissim varius, diam mauris rutrum ipsum, eget tempor eros arcu nec erat. Nunc dapibus nulla metus, sed maximus sapien laoreet et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel gravida lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum auctor quam eu dapibus euismod.</p>
+
           </div>
+
+          <div class="col col-md-4">
+            <aside class="sidebar">
+              <h3>Sidebar Heading</h3>
+              <p>This is the sidebar. Phasellus felis est, maximus eget augue nec, finibus imperdiet velit. Donec et nisi maximus, commodo turpis ac, pulvinar erat. Mauris posuere posuere dictum. In vitae molestie risus, sit amet ultrices tortor. Etiam quis hendrerit lectus. Sed pulvinar efficitur tortor sit amet ultrices. Nulla et diam elit. Donec sed vehicula libero. In eu semper neque, et fermentum eros. Nunc eget finibus neque.</p>
+            </aside>
+          </div>
+
         </div>
-
-        <p>Phasellus a felis pulvinar, auctor ex sit amet, dignissim tellus. Praesent vel urna bibendum, rutrum libero non, semper enim. Sed aliquam, ligula non dignissim varius, diam mauris rutrum ipsum, eget tempor eros arcu nec erat. Nunc dapibus nulla metus, sed maximus sapien laoreet et. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel gravida lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum auctor quam eu dapibus euismod.</p>
-
-        <aside class="sidebar">
-          <h3>Sidebar Heading</h3>
-          <p>This is the sidebar. Phasellus felis est, maximus eget augue nec, finibus imperdiet velit. Donec et nisi maximus, commodo turpis ac, pulvinar erat. Mauris posuere posuere dictum. In vitae molestie risus, sit amet ultrices tortor. Etiam quis hendrerit lectus. Sed pulvinar efficitur tortor sit amet ultrices. Nulla et diam elit. Donec sed vehicula libero. In eu semper neque, et fermentum eros. Nunc eget finibus neque.</p>
-        </aside>
       </div>
     </div>
 
