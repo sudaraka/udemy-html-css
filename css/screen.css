@@ -287,6 +287,23 @@ header p {
   margin-bottom: 30px;
   box-shadow: inset 3px 3px 5px rgba(0, 0, 0, .05), 5px 5px 5px rgba(0, 0, 0, .1);
   border-radius: 10px;
+  opacity: 0;
+  /* animation-fill-mode: forwards; */
+  /* animation-name: fadeBounce; */
+  /* animation-duration: 1s; */
+  animation: fadeBounce 1s forwards;
+}
+
+.boxes :nth-child(2) .box-a {
+  animation-delay: .5s;
+}
+
+.boxes :nth-child(3) .box-a {
+  animation-delay: 1s;
+}
+
+.boxes :nth-child(4) .box-a {
+  animation-delay: 1.5s;
 }
 
 .box-b {
@@ -322,6 +339,65 @@ header p {
     margin-bottom: 15px;
   }
 }
+
+/* Bounce Animation */
+
+@keyframes fadeBounce {
+  0% {
+    opacity: 0;
+    transform: translateY(-200%);
+  }
+
+  40% {
+    transform: translateY(0);
+  }
+
+  55% {
+    transform: translateY(-6px);
+  }
+
+  70% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  85% {
+    transform: translateY(-3px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* End Bounce Animation */
+
+/* Start Animation */
+
+.start {
+  width: 25%;
+  height: auto;
+  animation: slideSpin 2s forwards infinite alternate;
+  /* animation-iteration-count: infinite; */
+  /* animation-direction: alternate; */
+}
+
+@keyframes slideSpin {
+  50% {
+    transform: translateX(150%) scale(.5);
+  }
+
+  75% {
+    transform: translateX(150%) scale(.5) rotate(180deg);
+  }
+
+  100% {
+    transform: translateX(300%) rotate(180deg);
+  }
+}
+
+/* End Start Animation */
 
 /* Grid */
 
