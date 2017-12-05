@@ -314,6 +314,49 @@ header p {
 
 /* End Slideshow Styles */
 
+/* Reveal & hide styles */
+
+.read-more {
+  text-decoration: underline;
+  color: blue;
+}
+
+.read-more:hover {
+  text-decoration: none;
+}
+
+.toggle-btn {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .toggle-btn-visible {
+    display: block;
+  }
+
+  .toggle-target-hidden {
+    display: none;
+  }
+
+  .toggle-target-expanded {
+    display: block;
+  }
+}
+
+.content-area .toggle-btn-visible {
+  display: block;
+}
+
+.content-area .toggle-target-hidden {
+  display: none;
+}
+
+.content-area .toggle-target-expanded {
+  display: block;
+}
+
+/* End Reveal & hide styles */
+
 /* Banner Overlay */
 
 .image-banner {
